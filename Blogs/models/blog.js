@@ -6,6 +6,7 @@ let blogSchema = mongoose.Schema({
             trim : true,
             required : true
      },
+     
      author:{
             type : String,
             trim : true,
